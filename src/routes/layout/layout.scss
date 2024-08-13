@@ -1,6 +1,6 @@
 @import "../../responsive.scss";
 
-.layout{
+.layout {
     height: 100vh;
     max-width: 1366px;
     margin-left: auto;
@@ -10,26 +10,29 @@
     display: flex;
     flex-direction: column;
 
-    @include lg{
+    @include lg {
         // background-color: rgb(181, 219, 179);
         max-width: 1280px;
     }
 
 
-    @include md{
+    @include md {
         // background-color: rgb(184, 191, 230);
         max-width: 768px;
     }
 
 
-    @include sm{
+    @include sm {
         // background-color: rgb(213, 172, 172);
         max-width: 640px;
     }
 
 
-    .content{
-        flex: 1;
+    .content {
+        // flex: 1;
+        height: calc(100vh - 100px);
+        // background-color: rgb(179, 0, 255);
+
     }
 
 }

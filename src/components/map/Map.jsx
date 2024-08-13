@@ -12,7 +12,7 @@ function Map({ items }) {
   return (
     <MapContainer
       center={position}
-      zoom={7}
+      zoom={10}
       scrollWheelZoom={false}
       className="map-container"
     >

@@ -91,7 +91,7 @@ export const listData = [
 
 export const singlePostData = {
   id: 1,
-  title: "Contemporary Apartment",
+  title: "Modern Apartment in Pretoria!",
   price: 1400,
   images: [
     "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -102,10 +102,10 @@ export const singlePostData = {
   bedRooms: 2,
   bathroom: 1,
   size: 861,
-  latitude: -25.7461,
-  longitude: 28.1881,
+  address: "1234 Main Street, Pretoria",
+    latitude: -25.7461,
+    longitude: 28.1881,
   city: "Pretoria",
-  address: "1234 Main Street",
   school: "300m away",
   bus: "150m away",
   restaurant: "100m away",
